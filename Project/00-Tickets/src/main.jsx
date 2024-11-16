@@ -1,8 +1,7 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
 import { App } from './App' //Importamos al componente que queremos renderizar
-import { Header } from './Header'
-
+import './App.css'
 
 const root = createRoot(document.getElementById('root'))
 
@@ -12,7 +11,6 @@ const root = createRoot(document.getElementById('root'))
 
 root.render(
     <React.Fragment>
-        <Header/>
         <App/>
     </React.Fragment>
 )

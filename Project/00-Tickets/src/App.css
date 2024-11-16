@@ -1,0 +1,38 @@
+header{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    /* width: 100%; Ventana (caja) */
+    margin-top: 20px auto;
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 5px;
+    width: fit-content; /* Ajusta automáticamente el ancho al contenido */
+    text-align: center; /* Asegura que el texto esté centrado dentro del header */
+}
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    margin: 20px auto; /* Centrar horizontalmente */
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 5px;
+    width: fit-content; /* Ajusta automáticamente el ancho al contenido */
+    text-align: center; /* Asegura que el texto esté centrado dentro del header */
+}
+
+
+ul{
+    list-style: none; /* Quita los puntos de la lista */
+    display: flex; /* Flex para hacerlo en horizontal */
+    justify-content: center; /* lo ponemos centrado */
+    gap: 1em; /* El espacio entre cada li */
+    padding: 0; /* Relleno de 0 (cuadrado) */
+    margin: 0; /* Margen 0 */
+}
+
+li{
+    display: inline-block;
+    padding: 3px;
+}
+
