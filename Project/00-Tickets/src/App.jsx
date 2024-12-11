@@ -5,11 +5,8 @@ export function App()
        <html>
         <body>
             <header>
-                <nav>
-                
-                </nav>
-                <ul>
-                    <li>
+                <ul className="headUl">
+                    <li className="headLi">
                         <a href="https://www.facebook.com/" title="Facebook" target="_blank">
                         <svg width="30px" height="30px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 6V15H6V11C6 9.89543 6.89543 9 8 9C9.10457 9 10 9.89543 10 11V15H15V6L8 0L1 6Z" fill="#000000"/>
@@ -17,7 +14,7 @@ export function App()
                         </a>
 
                     </li>
-                    <li>
+                    <li className="headLi">
                         <a href="https://www.x.com/" title="X" target="_blank">
                         <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="Warning / Help">
@@ -26,13 +23,37 @@ export function App()
                         </svg>
                         </a>
                     </li>
-                    <li>Aldama</li>
-                    <li>Lopez</li>
+                    <li className="headLi">Aldama</li>
+                    <li className="headLi">Lopez</li>
                 </ul>
+                <nav>
+                    <ul>
+                        <li>
+                            Hola
+                        </li>
+                    </ul>
+                </nav>
+
             </header>
         
+            <div className="Vertical">
+            </div>
+
+            <div className="Horizontal">
+
+            </div>
+            <div className="footerHorizontal">
+
+            </div>
+
             <footer>
-                Adios
+                <div className="divFooter">
+                    <ul className="ulFooter">
+                        <li className="liFooter">
+                            <a href=""></a>
+                        </li>
+                    </ul>
+                </div>
             </footer>
         
         </body>

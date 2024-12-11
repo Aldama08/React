@@ -1,0 +1,21 @@
+footer, hr{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: gray;
+}
+
+ul.ulFooter{
+    list-style: none;
+}
+
+.footerHorizontal{
+    position: absolute;
+    width: 100%;
+    height: 0.5px;
+    bottom: 66px;
+    left: 0;
+    background-color: black;
+}
