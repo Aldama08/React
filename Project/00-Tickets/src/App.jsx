@@ -3,9 +3,11 @@ export function App()
 {
     return(
        <html>
-         <body>
-         <body>
+        <body>
             <header>
+                <nav>
+                
+                </nav>
                 <ul>
                     <li>
                         <a href="https://www.facebook.com/" title="Facebook" target="_blank">
@@ -28,13 +30,11 @@ export function App()
                     <li>Lopez</li>
                 </ul>
             </header>
-        </body>
-            <div>
-                
-            </div>
+        
             <footer>
                 Adios
             </footer>
+        
         </body>
        </html>
         
