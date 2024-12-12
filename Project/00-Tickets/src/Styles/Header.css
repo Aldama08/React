@@ -4,17 +4,15 @@
     box-sizing: border-box;
 } /* Formatea todo el html */ 
 
-
-
 header {
     font-family: 'Times New Roman', Times, serif;
     font-size: x-large;
-    margin: 20px auto; /* Centrar horizontalmente */
-    background-color: transparent;
-    /* border: 0.5px solid black; */
-    padding: 5px;
-    width: fit-content; /* Ajusta automáticamente el ancho al contenido */
-    text-align: center; /* Asegura que el texto esté centrado dentro del header */
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    background-color: #ede2d0;
 }
 
 .headUl{
@@ -35,7 +33,7 @@ header {
     position: absolute;
     width: 100%;
     height: 0.5px;
-    top: 66px;
+    top: 100px;
     left: 0;
     background-color: black;
 }
@@ -45,9 +43,9 @@ header {
     width: 1px;
     height: 100%;
     top: 0;
-    left: 66px; 
+    left: 80px;
+    /* transform: rotate(-1deg); */
     background-color: black;
+    z-index: 1;
 }
-
-
 
