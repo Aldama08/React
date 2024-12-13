@@ -1,9 +1,11 @@
 //Hacemos una funcion y lo que renderiza
+import { Cards } from "./Cards";
+import './Styles/Cards.css'
+
 export function App()   
 {
     return(
-       <html>
-        <body>
+       <body>
             <header>
                 <nav>
                     <ul className="headUl">
@@ -31,30 +33,29 @@ export function App()
 
             </header>
 
-            <div className="Vertical">
-            </div>
+             <div className="mainContCards">
+                <Cards/>
+                <Cards/>
+                <Cards/>
+                <Cards/>
+                <Cards/>
+                <Cards/>
+                <Cards/>
+
+            </div>   
 
             <div className="Horizontal">
-
             </div>
-            <div className="footerHorizontal">
 
+            <div className="footerHorizontal">
             </div>
 
             
-
             <footer>
-                <div className="divFooter">
-                    <ul className="ulFooter">
-                        <li className="liFooter">
-                            <a href=""></a>
-                        </li>
-                    </ul>
-                </div>
+                <p className="Marca">Marca ACME</p>
             </footer>
         
         </body>
-       </html>
         
-    )
+    );
 }
