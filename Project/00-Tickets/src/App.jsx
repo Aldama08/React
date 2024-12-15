@@ -38,10 +38,6 @@ export function App()
                 <Cards/>
                 <Cards/>
                 <Cards/>
-                <Cards/>
-                <Cards/>
-                <Cards/>
-
             </div>   
 
             <div className="Horizontal">
