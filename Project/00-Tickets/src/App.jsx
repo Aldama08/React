@@ -29,25 +29,19 @@ export function App()
                         <li className="headLi">Lopez</li>
                     </ul>
                 </nav>
-                
 
+                <div className="Horizontal"></div>
             </header>
 
              <div className="mainContCards">
                 <Cards/>
-                <Cards/>
-                <Cards/>
-                <Cards/>
+
             </div>   
 
-            <div className="Horizontal">
-            </div>
-
-            <div className="footerHorizontal">
-            </div>
 
             
             <footer>
+                <div className="footerHorizontal"></div>
                 <p className="Marca">Marca ACME</p>
             </footer>
         

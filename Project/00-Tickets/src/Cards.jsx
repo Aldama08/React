@@ -19,7 +19,7 @@ export function Cards()
             <article className="case">
                 <header>
                     <span className="cardEmoji"> 😊</span>
-                    <span className="cardName">👌</span>
+                    <span className="cardName">Holasssss</span>
                 </header>
                 <textarea readOnly className="cardComent" rows="1">Hola, que tal!</textarea>
             </article>
