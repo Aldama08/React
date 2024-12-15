@@ -1,6 +1,7 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
-import { App } from './App' //Importamos al componente que queremos renderizar
+import { App } from './App' //Importamos al componente que queremos 
+
 import './Styles/Header.css'
 import './Styles/Body.css'
 import './Styles/Footer.css'
